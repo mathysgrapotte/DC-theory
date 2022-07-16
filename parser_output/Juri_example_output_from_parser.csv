@@ -1,0 +1,180 @@
+name,cmc,text,mana_cost,card_id,is_dfc,color_identity,board,power,toughness,supertype,type,subtype
+"Juri, Master of the Revue",2.0,"Whenever you sacrifice a permanent, put a +1/+1 counter on Juri, Master of the Revue.
+When Juri dies, it deals damage equal to its power to any target.",{B}{R},0,False,"['B', 'R']",commander,1,1,['Legendary'],['Creature'],"['Human', 'Shaman']"
+Woe Strider,3.0,"When Woe Strider enters the battlefield, create a 0/1 white Goat creature token.
+Sacrifice another creature: Scry 1.
+Escape—{3}{B}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)
+Woe Strider escapes with two +1/+1 counters on it.",{2}{B},1,False,['B'],mainboard,3,2,[],['Creature'],['Horror']
+Bonecrusher Giant,3.0,"Whenever Bonecrusher Giant becomes the target of a spell, Bonecrusher Giant deals 2 damage to that spell's controller.",{2}{R},2,True,['R'],mainboard,4,3,[],['Creature'],['Giant']
+Stomp,2.0,Damage can't be prevented this turn. Stomp deals 2 damage to any target.,{1}{R},2,True,['R'],mainboard,None,None,[],['Instant'],['Adventure']
+"Chandra, Acolyte of Flame",3.0,"0: Put a loyalty counter on each red planeswalker you control.
+0: Create two 1/1 red Elemental creature tokens. They gain haste. Sacrifice them at the beginning of the next end step.
+−2: You may cast target instant or sorcery card with mana value 3 or less from your graveyard. If that spell would be put into your graveyard, exile it instead.",{1}{R}{R},3,False,['R'],mainboard,None,None,['Legendary'],['Planeswalker'],['Chandra']
+Sulfurous Springs,0.0,"{T}: Add {C}.
+{T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you.",,4,False,"['B', 'R']",mainboard,None,None,[],['Land'],[]
+Urza's Bauble,0.0,"{T}, Sacrifice Urza's Bauble: Look at a card at random in target player's hand. You draw a card at the beginning of the next turn's upkeep.",{0},5,False,[],mainboard,None,None,[],['Artifact'],[]
+"Shizo, Death's Storehouse",0.0,"{T}: Add {B}.
+{B}, {T}: Target legendary creature gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)",,6,False,['B'],mainboard,None,None,['Legendary'],['Land'],[]
+Graven Cairns,0.0,"{T}: Add {C}.
+{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R}.",,7,False,"['B', 'R']",mainboard,None,None,[],['Land'],[]
+Command Tower,0.0,{T}: Add one mana of any color in your commander's color identity.,,8,False,[],mainboard,None,None,[],['Land'],[]
+Diabolic Intent,2.0,"As an additional cost to cast this spell, sacrifice a creature.
+Search your library for a card, put that card into your hand, then shuffle.",{1}{B},9,False,['B'],mainboard,None,None,[],['Sorcery'],[]
+Pyrokinesis,6.0,"You may exile a red card from your hand rather than pay this spell's mana cost.
+Pyrokinesis deals 4 damage divided as you choose among any number of target creatures.",{4}{R}{R},10,False,['R'],mainboard,None,None,[],['Instant'],[]
+Gutterbones,1.0,"Gutterbones enters the battlefield tapped.
+{1}{B}: Return Gutterbones from your graveyard to your hand. Activate only during your turn and only if an opponent lost life this turn.",{B},11,False,['B'],mainboard,2,1,[],['Creature'],"['Skeleton', 'Warrior']"
+"Judith, the Scourge Diva",3.0,"Other creatures you control get +1/+0.
+Whenever a nontoken creature you control dies, Judith, the Scourge Diva deals 1 damage to any target.",{1}{B}{R},12,False,"['B', 'R']",mainboard,2,2,['Legendary'],['Creature'],"['Human', 'Shaman']"
+"Urborg, Tomb of Yawgmoth",0.0,Each land is a Swamp in addition to its other land types.,,13,False,[],mainboard,None,None,['Legendary'],['Land'],[]
+Claim,1.0,Return target creature card with mana value 2 or less from your graveyard to the battlefield.,{B},14,True,"['B', 'R']",mainboard,None,None,[],['Sorcery'],[]
+Fame,2.0,"Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Target creature gets +2/+0 and gains haste until end of turn.",{1}{R},14,True,"['B', 'R']",mainboard,None,None,[],['Sorcery'],[]
+Fatal Push,1.0,"Destroy target creature if it has mana value 2 or less.
+Revolt — Destroy that creature if it has mana value 4 or less instead if a permanent you controlled left the battlefield this turn.",{B},15,False,['B'],mainboard,None,None,[],['Instant'],[]
+"Kari Zev, Skyship Raider",2.0,"First strike, menace
+Whenever Kari Zev, Skyship Raider attacks, create Ragavan, a legendary 2/1 red Monkey creature token. Ragavan enters the battlefield tapped and attacking. Exile that token at end of combat.",{1}{R},16,False,['R'],mainboard,1,3,['Legendary'],['Creature'],"['Human', 'Pirate']"
+Falkenrath Aristocrat,4.0,"Flying, haste
+Sacrifice a creature: Falkenrath Aristocrat gains indestructible until end of turn. If the sacrificed creature was a Human, put a +1/+1 counter on Falkenrath Aristocrat.",{2}{B}{R},17,False,"['B', 'R']",mainboard,4,1,[],['Creature'],"['Vampire', 'Noble']"
+Blackcleave Cliffs,0.0,"Blackcleave Cliffs enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {B} or {R}.",,18,False,"['B', 'R']",mainboard,None,None,[],['Land'],[]
+Viscera Seer,1.0,Sacrifice a creature: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.),{B},19,False,['B'],mainboard,1,1,[],['Creature'],"['Vampire', 'Wizard']"
+Seal of Fire,1.0,Sacrifice Seal of Fire: It deals 2 damage to any target.,{R},20,False,['R'],mainboard,None,None,[],['Enchantment'],[]
+Skullclamp,1.0,"Equipped creature gets +1/-1.
+Whenever equipped creature dies, draw two cards.
+Equip {1}",{1},21,False,[],mainboard,None,None,[],['Artifact'],['Equipment']
+Goblin Bombardment,2.0,Sacrifice a creature: Goblin Bombardment deals 1 damage to any target.,{1}{R},22,False,['R'],mainboard,None,None,[],['Enchantment'],[]
+Fireblast,6.0,"You may sacrifice two Mountains rather than pay this spell's mana cost.
+Fireblast deals 4 damage to any target.",{4}{R}{R},23,False,['R'],mainboard,None,None,[],['Instant'],[]
+Heartfire,2.0,"As an additional cost to cast this spell, sacrifice a creature or planeswalker.
+Heartfire deals 4 damage to any target.",{1}{R},24,False,['R'],mainboard,None,None,[],['Instant'],[]
+Mayhem Devil,3.0,"Whenever a player sacrifices a permanent, Mayhem Devil deals 1 damage to any target.",{1}{B}{R},25,False,"['B', 'R']",mainboard,3,3,[],['Creature'],['Devil']
+Carrion Feeder,1.0,"Carrion Feeder can't block.
+Sacrifice a creature: Put a +1/+1 counter on Carrion Feeder.",{B},26,False,['B'],mainboard,1,1,[],['Creature'],['Zombie']
+Lightning Skelemental,3.0,"Trample, haste
+Whenever Lightning Skelemental deals combat damage to a player, that player discards two cards.
+At the beginning of the end step, sacrifice Lightning Skelemental.",{B}{R}{R},27,False,"['B', 'R']",mainboard,6,1,[],['Creature'],"['Elemental', 'Skeleton']"
+Prismatic Vista,0.0,"{T}, Pay 1 life, Sacrifice Prismatic Vista: Search your library for a basic land card, put it onto the battlefield, then shuffle.",,28,False,[],mainboard,None,None,[],['Land'],[]
+Seasoned Pyromancer,3.0,"When Seasoned Pyromancer enters the battlefield, discard two cards, then draw two cards. For each nonland card discarded this way, create a 1/1 red Elemental creature token.
+{3}{R}{R}, Exile Seasoned Pyromancer from your graveyard: Create two 1/1 red Elemental creature tokens.",{1}{R}{R},29,False,['R'],mainboard,2,2,[],['Creature'],"['Human', 'Shaman']"
+Unearth,1.0,"Return target creature card with mana value 3 or less from your graveyard to the battlefield.
+Cycling {2} ({2}, Discard this card: Draw a card.)",{B},30,False,['B'],mainboard,None,None,[],['Sorcery'],[]
+Deadly Rollick,4.0,"If you control a commander, you may cast this spell without paying its mana cost.
+Exile target creature.",{3}{B},31,False,['B'],mainboard,None,None,[],['Instant'],[]
+Collateral Damage,1.0,"As an additional cost to cast this spell, sacrifice a creature.
+Collateral Damage deals 3 damage to any target.",{R},32,False,['R'],mainboard,None,None,[],['Instant'],[]
+City of Brass,0.0,"Whenever City of Brass becomes tapped, it deals 1 damage to you.
+{T}: Add one mana of any color.",,33,False,[],mainboard,None,None,[],['Land'],[]
+Mana Confluence,0.0,"{T}, Pay 1 life: Add one mana of any color.",,34,False,[],mainboard,None,None,[],['Land'],[]
+Blood Crypt,0.0,"({T}: Add {B} or {R}.)
+As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.",,35,False,"['B', 'R']",mainboard,None,None,[],['Land'],"['Swamp', 'Mountain']"
+Grim Lavamancer,1.0,"{R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to any target.",{R},36,False,['R'],mainboard,1,1,[],['Creature'],"['Human', 'Wizard']"
+Barbarian Ring,0.0,"{T}: Add {R}. Barbarian Ring deals 1 damage to you.
+Threshold — {R}, {T}, Sacrifice Barbarian Ring: It deals 2 damage to any target. Activate only if seven or more cards are in your graveyard.",,37,False,['R'],mainboard,None,None,[],['Land'],[]
+Badlands,0.0,({T}: Add {B} or {R}.),,38,False,"['B', 'R']",mainboard,None,None,[],['Land'],"['Swamp', 'Mountain']"
+Demonic Tutor,2.0,"Search your library for a card, put that card into your hand, then shuffle.",{1}{B},39,False,['B'],mainboard,None,None,[],['Sorcery'],[]
+Dark Confidant,2.0,"At the beginning of your upkeep, reveal the top card of your library and put that card into your hand. You lose life equal to its mana value.",{1}{B},40,False,['B'],mainboard,2,1,[],['Creature'],"['Human', 'Wizard']"
+Mishra's Bauble,0.0,"{T}, Sacrifice Mishra's Bauble: Look at the top card of target player's library. Draw a card at the beginning of the next turn's upkeep.",{0},41,False,[],mainboard,None,None,[],['Artifact'],[]
+Chain Lightning,1.0,"Chain Lightning deals 3 damage to any target. Then that player or that permanent's controller may pay {R}{R}. If the player does, they may copy this spell and may choose a new target for that copy.",{R},42,False,['R'],mainboard,None,None,[],['Sorcery'],[]
+Reanimate,1.0,Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its mana value.,{B},43,False,['B'],mainboard,None,None,[],['Sorcery'],[]
+Greater Gargadon,10.0,"Suspend 10—{R}
+Sacrifice an artifact, creature, or land: Remove a time counter from Greater Gargadon. Activate only if Greater Gargadon is suspended.",{9}{R},44,False,['R'],mainboard,9,7,[],['Creature'],['Beast']
+Bloodsoaked Champion,1.0,"Bloodsoaked Champion can't block.
+Raid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate only if you attacked this turn.",{B},45,False,['B'],mainboard,2,1,[],['Creature'],"['Human', 'Warrior']"
+Bloodstained Mire,0.0,"{T}, Pay 1 life, Sacrifice Bloodstained Mire: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",,46,False,[],mainboard,None,None,[],['Land'],[]
+Polluted Delta,0.0,"{T}, Pay 1 life, Sacrifice Polluted Delta: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",,47,False,[],mainboard,None,None,[],['Land'],[]
+Wooded Foothills,0.0,"{T}, Pay 1 life, Sacrifice Wooded Foothills: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle.",,48,False,[],mainboard,None,None,[],['Land'],[]
+Zurgo Bellstriker,1.0,"Zurgo Bellstriker can't block creatures with power 2 or greater.
+Dash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",{R},49,False,['R'],mainboard,2,2,['Legendary'],['Creature'],"['Orc', 'Warrior']"
+Bomat Courier,1.0,"Haste
+Whenever Bomat Courier attacks, exile the top card of your library face down. (You can't look at it.)
+{R}, Discard your hand, Sacrifice Bomat Courier: Put all cards exiled with Bomat Courier into their owners' hands.",{1},50,False,['R'],mainboard,1,1,[],"['Artifact', 'Creature']",['Construct']
+Scrapheap Scrounger,2.0,"Scrapheap Scrounger can't block.
+{1}{B}, Exile another creature card from your graveyard: Return Scrapheap Scrounger from your graveyard to the battlefield.",{2},51,False,['B'],mainboard,3,2,[],"['Artifact', 'Creature']",['Construct']
+Smuggler's Copter,2.0,"Flying
+Whenever Smuggler's Copter attacks or blocks, you may draw a card. If you do, discard a card.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",{2},52,False,[],mainboard,3,3,[],['Artifact'],['Vehicle']
+Loyal Apprentice,2.0,"Haste
+Lieutenant — At the beginning of combat on your turn, if you control your commander, create a 1/1 colorless Thopter artifact creature token with flying. That token gains haste until end of turn.",{1}{R},53,False,['R'],mainboard,2,1,[],['Creature'],"['Human', 'Artificer']"
+Dragonskull Summit,0.0,"Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.
+{T}: Add {B} or {R}.",,54,False,"['B', 'R']",mainboard,None,None,[],['Land'],[]
+Bloodghast,2.0,"Bloodghast can't block.
+Bloodghast has haste as long as an opponent has 10 or less life.
+Landfall — Whenever a land enters the battlefield under your control, you may return Bloodghast from your graveyard to the battlefield.",{B}{B},55,False,['B'],mainboard,2,1,[],['Creature'],"['Vampire', 'Spirit']"
+Pyrite Spellbomb,1.0,"{R}, Sacrifice Pyrite Spellbomb: It deals 2 damage to any target.
+{1}, Sacrifice Pyrite Spellbomb: Draw a card.",{1},56,False,['R'],mainboard,None,None,[],['Artifact'],[]
+Mountain,0.0,({T}: Add {R}.),,57,False,['R'],mainboard,None,None,['Basic'],['Land'],['Mountain']
+Mountain,0.0,({T}: Add {R}.),,58,False,['R'],mainboard,None,None,['Basic'],['Land'],['Mountain']
+Mountain,0.0,({T}: Add {R}.),,59,False,['R'],mainboard,None,None,['Basic'],['Land'],['Mountain']
+Mountain,0.0,({T}: Add {R}.),,60,False,['R'],mainboard,None,None,['Basic'],['Land'],['Mountain']
+Mountain,0.0,({T}: Add {R}.),,61,False,['R'],mainboard,None,None,['Basic'],['Land'],['Mountain']
+Mountain,0.0,({T}: Add {R}.),,62,False,['R'],mainboard,None,None,['Basic'],['Land'],['Mountain']
+Mountain,0.0,({T}: Add {R}.),,63,False,['R'],mainboard,None,None,['Basic'],['Land'],['Mountain']
+Mountain,0.0,({T}: Add {R}.),,64,False,['R'],mainboard,None,None,['Basic'],['Land'],['Mountain']
+Swamp,0.0,({T}: Add {B}.),,65,False,['B'],mainboard,None,None,['Basic'],['Land'],['Swamp']
+Swamp,0.0,({T}: Add {B}.),,66,False,['B'],mainboard,None,None,['Basic'],['Land'],['Swamp']
+Swamp,0.0,({T}: Add {B}.),,67,False,['B'],mainboard,None,None,['Basic'],['Land'],['Swamp']
+Blightstep Pathway,0.0,{T}: Add {B}.,,68,True,"['B', 'R']",mainboard,None,None,[],['Land'],[]
+Searstep Pathway,0.0,{T}: Add {R}.,,68,True,"['B', 'R']",mainboard,None,None,[],['Land'],[]
+Village Rites,1.0,"As an additional cost to cast this spell, sacrifice a creature.
+Draw two cards.",{B},69,False,['B'],mainboard,None,None,[],['Instant'],[]
+Urza's Saga,0.0,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Urza's Saga gains ""{T}: Add {C}.""
+II — Urza's Saga gains ""{2}, {T}: Create a 0/0 colorless Construct artifact creature token with 'This creature gets +1/+1 for each artifact you control.'""
+III — Search your library for an artifact card with mana cost {0} or {1}, put it onto the battlefield, then shuffle.",,70,False,[],mainboard,None,None,[],"['Enchantment', 'Land']","['Urza’s', 'Saga']"
+Arid Mesa,0.0,"{T}, Pay 1 life, Sacrifice Arid Mesa: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.",,71,False,[],mainboard,None,None,[],['Land'],[]
+Marsh Flats,0.0,"{T}, Pay 1 life, Sacrifice Marsh Flats: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.",,72,False,[],mainboard,None,None,[],['Land'],[]
+Scalding Tarn,0.0,"{T}, Pay 1 life, Sacrifice Scalding Tarn: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",,73,False,[],mainboard,None,None,[],['Land'],[]
+Verdant Catacombs,0.0,"{T}, Pay 1 life, Sacrifice Verdant Catacombs: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.",,74,False,[],mainboard,None,None,[],['Land'],[]
+Fabled Passage,0.0,"{T}, Sacrifice Fabled Passage: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.",,75,False,[],mainboard,None,None,[],['Land'],[]
+Zuran Orb,0.0,Sacrifice a land: You gain 2 life.,{0},76,False,[],mainboard,None,None,[],['Artifact'],[]
+Dragon's Rage Channeler,1.0,"Whenever you cast a noncreature spell, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)
+Delirium — As long as there are four or more card types among cards in your graveyard, Dragon's Rage Channeler gets +2/+2, has flying, and attacks each combat if able.",{R},77,False,['R'],mainboard,1,1,[],['Creature'],"['Human', 'Shaman']"
+Harmonic Prodigy,2.0,"Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+If an ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time.",{1}{R},78,False,['R'],mainboard,1,3,[],['Creature'],"['Human', 'Wizard']"
+Fury,5.0,"Double strike
+When Fury enters the battlefield, it deals 4 damage divided as you choose among any number of target creatures and/or planeswalkers.
+Evoke—Exile a red card from your hand.",{3}{R}{R},79,False,['R'],mainboard,3,3,[],['Creature'],"['Elemental', 'Incarnation']"
+Goblin Guide,1.0,"Haste
+Whenever Goblin Guide attacks, defending player reveals the top card of their library. If it's a land card, that player puts it into their hand.",{R},80,False,['R'],mainboard,2,2,[],['Creature'],"['Goblin', 'Scout']"
+Den of the Bugbear,0.0,"If you control two or more other lands, Den of the Bugbear enters the battlefield tapped.
+{T}: Add {R}.
+{3}{R}: Until end of turn, Den of the Bugbear becomes a 3/2 red Goblin creature with ""Whenever this creature attacks, create a 1/1 red Goblin creature token that's tapped and attacking."" It's still a land.",,81,False,['R'],mainboard,None,None,[],['Land'],[]
+Deadly Dispute,2.0,"As an additional cost to cast this spell, sacrifice an artifact or creature.
+Draw two cards and create a Treasure token. (It's an artifact with ""{T}, Sacrifice this artifact: Add one mana of any color."")",{1}{B},82,False,['B'],mainboard,None,None,[],['Instant'],[]
+Hive of the Eye Tyrant,0.0,"If you control two or more other lands, Hive of the Eye Tyrant enters the battlefield tapped.
+{T}: Add {B}.
+{3}{B}: Until end of turn, Hive of the Eye Tyrant becomes a 3/3 black Beholder creature with menace and ""Whenever this creature attacks, exile target card from defending player's graveyard."" It's still a land.",,83,False,['B'],mainboard,None,None,[],['Land'],[]
+"Jadar, Ghoulcaller of Nephalia",2.0,"At the beginning of your end step, if you control no creatures with decayed, create a 2/2 black Zombie creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)",{1}{B},84,False,['B'],mainboard,1,1,['Legendary'],['Creature'],"['Human', 'Wizard']"
+Falkenrath Pit Fighter,1.0,"{1}{R}, Discard a card, Sacrifice a Vampire: Draw two cards. Activate only if an opponent lost life this turn.",{R},85,False,['R'],mainboard,2,1,[],['Creature'],"['Vampire', 'Warrior']"
+Cemetery Gatekeeper,2.0,"First strike
+When Cemetery Gatekeeper enters the battlefield, exile a card from a graveyard.
+Whenever a player plays a land or casts a spell, if it shares a card type with the exiled card, Cemetery Gatekeeper deals 2 damage to that player.",{1}{R},86,False,['R'],mainboard,2,1,[],['Creature'],['Vampire']
+Lightning Bolt,1.0,Lightning Bolt deals 3 damage to any target.,{R},87,False,['R'],mainboard,None,None,[],['Instant'],[]
+Unlucky Witness,1.0,"When Unlucky Witness dies, exile the top two cards of your library. Until your next end step, you may play one of those cards.",{R},88,False,['R'],mainboard,1,1,[],['Creature'],"['Human', 'Citizen']"
+Cultist of the Absolute,1.0,"Commander creatures you own get +3/+3 and have flying, deathtouch, ""Ward—Pay 3 life,"" and ""At the beginning of your upkeep, sacrifice a creature.""",{B},89,False,['B'],mainboard,None,None,['Legendary'],['Enchantment'],['Background']
+"Gut, True Soul Zealot",3.0,"Whenever you attack, you may sacrifice another creature or an artifact. If you do, create a 4/1 black Skeleton creature token with menace that's tapped and attacking. (It can't be blocked except by two or more creatures.)
+Choose a Background (You can have a Background as a second commander.)",{2}{R},90,False,['R'],mainboard,2,2,['Legendary'],['Creature'],"['Goblin', 'Shaman']"
+Caves of Chaos Adventurer,4.0,"Trample
+When Caves of Chaos Adventurer enters the battlefield, you take the initiative.
+Whenever Caves of Chaos Adventurer attacks, exile the top card of your library. If you've completed a dungeon, you may play that card this turn without paying its mana cost. Otherwise, you may play that card this turn.",{3}{R},91,False,['R'],mainboard,5,3,[],['Creature'],"['Human', 'Barbarian']"
+Tenacious Underdog,2.0,"Blitz—{2}{B}{B}, Pay 2 life. (If you cast this spell for its blitz cost, it gains haste and ""When this creature dies, draw a card."" Sacrifice it at the beginning of the next end step.)
+You may cast Tenacious Underdog from your graveyard using its blitz ability.",{1}{B},92,False,['B'],mainboard,3,2,[],['Creature'],"['Human', 'Warrior']"
+Strangle,1.0,Strangle deals 3 damage to target creature or planeswalker.,{R},93,False,['R'],mainboard,None,None,[],['Sorcery'],[]
+"Ob Nixilis, the Adversary",3.0,"Casualty X. The copy isn't legendary and has starting loyalty X. (As you cast this spell, you may sacrifice a creature with power X. When you do, copy this spell. The copy becomes a token.)
++1: Each opponent loses 2 life unless they discard a card. If you control a Demon or Devil, you gain 2 life.
+−2: Create a 1/1 red Devil creature token with ""When this creature dies, it deals 1 damage to any target.""
+−7: Target player draws seven cards and loses 7 life.",{1}{B}{R},94,False,"['B', 'R']",mainboard,None,None,['Legendary'],['Planeswalker'],['Nixilis']
+"Takenuma, Abandoned Mire",0.0,"{T}: Add {B}.
+Channel — {3}{B}, Discard Takenuma, Abandoned Mire: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control.",,95,False,['B'],mainboard,None,None,['Legendary'],['Land'],[]
+Fable of the Mirror-Breaker,3.0,"(As this Saga enters and after your draw step, add a lore counter.)
+I — Create a 2/2 red Goblin Shaman creature token with ""Whenever this creature attacks, create a Treasure token.""
+II — You may discard up to two cards. If you do, draw that many cards.
+III — Exile this Saga, then return it to the battlefield transformed under your control.",{2}{R},96,True,['R'],mainboard,None,None,[],['Enchantment'],['Saga']
+Reflection of Kiki-Jiki,0.0,"{1}, {T}: Create a token that's a copy of another target nonlegendary creature you control, except it has haste. Sacrifice it at the beginning of the next end step.",,96,True,['R'],mainboard,2,2,[],"['Enchantment', 'Creature']","['Goblin', 'Shaman']"
+"Sokenzan, Crucible of Defiance",0.0,"{T}: Add {R}.
+Channel — {3}{R}, Discard Sokenzan, Crucible of Defiance: Create two 1/1 colorless Spirit creature tokens. They gain haste until end of turn. This ability costs {1} less to activate for each legendary creature you control.",,97,False,['R'],mainboard,None,None,['Legendary'],['Land'],[]
+Voldaren Epicure,1.0,"When Voldaren Epicure enters the battlefield, it deals 1 damage to each opponent. Create a Blood token. (It's an artifact with ""{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card."")",{R},98,False,['R'],mainboard,1,1,[],['Creature'],['Vampire']
+Bloodtithe Harvester,2.0,"When Bloodtithe Harvester enters the battlefield, create a Blood token. (It's an artifact with ""{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card."")
+{T}, Sacrifice Bloodtithe Harvester: Target creature gets -X/-X until end of turn, where X is twice the number of Blood tokens you control. Activate only as a sorcery.",{B}{R},99,False,"['B', 'R']",mainboard,3,2,[],['Creature'],['Vampire']
+
