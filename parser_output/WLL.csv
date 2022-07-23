@@ -1,0 +1,167 @@
+name,cmc,text,mana_cost,card_id,is_dfc,color_identity,board,power,toughness,supertype,type,subtype
+Lurrus of the Dream-Den,3.0,"Companion — Each permanent card in your starting deck has mana value 2 or less. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} any time you could cast a sorcery.)
+Lifelink
+During each of your turns, you may cast one permanent spell with mana value 2 or less from your graveyard.",{1}{W/B}{W/B},0,False,"['B', 'W']",companion,3,2,['Legendary'],['Creature'],"['Cat', 'Nightmare']"
+"Wernog, Rider's Chaplain",2.0,"When Wernog, Rider's Chaplain enters or leaves the battlefield, each opponent may investigate. Each opponent who doesn't loses 1 life. You investigate X times, where X is one plus the number of opponents who investigated this way.
+Friends forever (You can have two commanders if both have friends forever.)",{W}{B},1,False,"['B', 'W']",commander,1,2,['Legendary'],['Creature'],['Human']
+"Bjorna, Nightfall Alchemist",2.0,"{T}, Sacrifice an artifact: Bjorna, Nightfall Alchemist deals 1 damage to target creature. Goad that creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)
+Friends forever (You can have two commanders if both have friends forever.)",{U}{R},2,False,"['R', 'U']",commander,1,3,['Legendary'],['Creature'],['Human']
+Supreme Verdict,4.0,"This spell can't be countered.
+Destroy all creatures.",{1}{W}{W}{U},3,False,"['U', 'W']",mainboard,None,None,[],['Sorcery'],[]
+Arcane Signet,2.0,{T}: Add one mana of any color in your commander's color identity.,{2},4,False,[],mainboard,None,None,[],['Artifact'],[]
+Mishra's Bauble,0.0,"{T}, Sacrifice Mishra's Bauble: Look at the top card of target player's library. Draw a card at the beginning of the next turn's upkeep.",{0},5,False,[],mainboard,None,None,[],['Artifact'],[]
+Urza's Bauble,0.0,"{T}, Sacrifice Urza's Bauble: Look at a card at random in target player's hand. You draw a card at the beginning of the next turn's upkeep.",{0},6,False,[],mainboard,None,None,[],['Artifact'],[]
+Abeyance,2.0,"Until end of turn, target player can't cast instant or sorcery spells, and that player can't activate abilities that aren't mana abilities.
+Draw a card.",{1}{W},7,False,['W'],mainboard,None,None,[],['Instant'],[]
+Wall of Omens,2.0,"Defender
+When Wall of Omens enters the battlefield, draw a card.",{1}{W},8,False,['W'],mainboard,0,4,[],['Creature'],['Wall']
+Concealed Courtyard,0.0,"Concealed Courtyard enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {W} or {B}.",,9,False,"['B', 'W']",mainboard,None,None,[],['Land'],[]
+Goblin Engineer,2.0,"When Goblin Engineer enters the battlefield, you may search your library for an artifact card, put it into your graveyard, then shuffle.
+{R}, {T}, Sacrifice an artifact: Return target artifact card with mana value 3 or less from your graveyard to the battlefield.",{1}{R},10,False,['R'],mainboard,1,2,[],['Creature'],"['Goblin', 'Artificer']"
+Shattered Sanctum,0.0,"Shattered Sanctum enters the battlefield tapped unless you control two or more other lands.
+{T}: Add {W} or {B}.",,11,False,"['B', 'W']",mainboard,None,None,[],['Land'],[]
+Hallowed Fountain,0.0,"({T}: Add {W} or {U}.)
+As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.",,12,False,"['U', 'W']",mainboard,None,None,[],['Land'],"['Plains', 'Island']"
+Blood Crypt,0.0,"({T}: Add {B} or {R}.)
+As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.",,13,False,"['B', 'R']",mainboard,None,None,[],['Land'],"['Swamp', 'Mountain']"
+Watery Grave,0.0,"({T}: Add {U} or {B}.)
+As Watery Grave enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.",,14,False,"['B', 'U']",mainboard,None,None,[],['Land'],"['Island', 'Swamp']"
+Glacial Fortress,0.0,"Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.
+{T}: Add {W} or {U}.",,15,False,"['U', 'W']",mainboard,None,None,[],['Land'],[]
+Dragonskull Summit,0.0,"Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.
+{T}: Add {B} or {R}.",,16,False,"['B', 'R']",mainboard,None,None,[],['Land'],[]
+Drowned Catacomb,0.0,"Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.
+{T}: Add {U} or {B}.",,17,False,"['B', 'U']",mainboard,None,None,[],['Land'],[]
+Shipwreck Marsh,0.0,"Shipwreck Marsh enters the battlefield tapped unless you control two or more other lands.
+{T}: Add {U} or {B}.",,18,False,"['B', 'U']",mainboard,None,None,[],['Land'],[]
+Deserted Beach,0.0,"Deserted Beach enters the battlefield tapped unless you control two or more other lands.
+{T}: Add {W} or {U}.",,19,False,"['U', 'W']",mainboard,None,None,[],['Land'],[]
+Seachrome Coast,0.0,"Seachrome Coast enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {W} or {U}.",,20,False,"['U', 'W']",mainboard,None,None,[],['Land'],[]
+Darkslick Shores,0.0,"Darkslick Shores enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {U} or {B}.",,21,False,"['B', 'U']",mainboard,None,None,[],['Land'],[]
+Blackcleave Cliffs,0.0,"Blackcleave Cliffs enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {B} or {R}.",,22,False,"['B', 'R']",mainboard,None,None,[],['Land'],[]
+Wooded Foothills,0.0,"{T}, Pay 1 life, Sacrifice Wooded Foothills: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle.",,23,False,[],mainboard,None,None,[],['Land'],[]
+Windswept Heath,0.0,"{T}, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card, put it onto the battlefield, then shuffle.",,24,False,[],mainboard,None,None,[],['Land'],[]
+Polluted Delta,0.0,"{T}, Pay 1 life, Sacrifice Polluted Delta: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",,25,False,[],mainboard,None,None,[],['Land'],[]
+Verdant Catacombs,0.0,"{T}, Pay 1 life, Sacrifice Verdant Catacombs: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.",,26,False,[],mainboard,None,None,[],['Land'],[]
+Scalding Tarn,0.0,"{T}, Pay 1 life, Sacrifice Scalding Tarn: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",,27,False,[],mainboard,None,None,[],['Land'],[]
+Misty Rainforest,0.0,"{T}, Pay 1 life, Sacrifice Misty Rainforest: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",,28,False,[],mainboard,None,None,[],['Land'],[]
+Marsh Flats,0.0,"{T}, Pay 1 life, Sacrifice Marsh Flats: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.",,29,False,[],mainboard,None,None,[],['Land'],[]
+Arid Mesa,0.0,"{T}, Pay 1 life, Sacrifice Arid Mesa: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.",,30,False,[],mainboard,None,None,[],['Land'],[]
+Flooded Strand,0.0,"{T}, Pay 1 life, Sacrifice Flooded Strand: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",,31,False,[],mainboard,None,None,[],['Land'],[]
+Bloodstained Mire,0.0,"{T}, Pay 1 life, Sacrifice Bloodstained Mire: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",,32,False,[],mainboard,None,None,[],['Land'],[]
+Volcanic Island,0.0,({T}: Add {U} or {R}.),,33,False,"['R', 'U']",mainboard,None,None,[],['Land'],"['Island', 'Mountain']"
+Underground Sea,0.0,({T}: Add {U} or {B}.),,34,False,"['B', 'U']",mainboard,None,None,[],['Land'],"['Island', 'Swamp']"
+Tundra,0.0,({T}: Add {W} or {U}.),,35,False,"['U', 'W']",mainboard,None,None,[],['Land'],"['Plains', 'Island']"
+Scrubland,0.0,({T}: Add {W} or {B}.),,36,False,"['B', 'W']",mainboard,None,None,[],['Land'],"['Plains', 'Swamp']"
+Plateau,0.0,({T}: Add {R} or {W}.),,37,False,"['R', 'W']",mainboard,None,None,[],['Land'],"['Mountain', 'Plains']"
+Badlands,0.0,({T}: Add {B} or {R}.),,38,False,"['B', 'R']",mainboard,None,None,[],['Land'],"['Swamp', 'Mountain']"
+Savai Triome,0.0,"({T}: Add {R}, {W}, or {B}.)
+Savai Triome enters the battlefield tapped.
+Cycling {3} ({3}, Discard this card: Draw a card.)",,39,False,"['B', 'R', 'W']",mainboard,None,None,[],['Land'],"['Mountain', 'Plains', 'Swamp']"
+Path of Ancestry,0.0,"Path of Ancestry enters the battlefield tapped.
+{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",,40,False,[],mainboard,None,None,[],['Land'],[]
+Orim's Chant,1.0,"Kicker {W} (You may pay an additional {W} as you cast this spell.)
+Target player can't cast spells this turn. If this spell was kicked, creatures can't attack this turn.",{W},41,False,['W'],mainboard,None,None,[],['Instant'],[]
+Mana Leak,2.0,Counter target spell unless its controller pays {3}.,{1}{U},42,False,['U'],mainboard,None,None,[],['Instant'],[]
+Evasive Action,2.0,Domain — Counter target spell unless its controller pays {1} for each basic land type among lands you control.,{1}{U},43,False,['U'],mainboard,None,None,[],['Instant'],[]
+Raffine's Tower,0.0,"({T}: Add {W}, {U}, or {B}.)
+Raffine's Tower enters the battlefield tapped.
+Cycling {3} ({3}, Discard this card: Draw a card.)",,44,False,"['B', 'U', 'W']",mainboard,None,None,[],['Land'],"['Plains', 'Island', 'Swamp']"
+Xander's Lounge,0.0,"({T}: Add {U}, {B}, or {R}.)
+Xander's Lounge enters the battlefield tapped.
+Cycling {3} ({3}, Discard this card: Draw a card.)",,45,False,"['B', 'R', 'U']",mainboard,None,None,[],['Land'],"['Island', 'Swamp', 'Mountain']"
+Underworld Breach,2.0,"Each nonland card in your graveyard has escape. The escape cost is equal to the card's mana cost plus exile three other cards from your graveyard. (You may cast cards from your graveyard for their escape cost.)
+At the beginning of the end step, sacrifice Underworld Breach.",{1}{R},46,False,['R'],mainboard,None,None,[],['Enchantment'],[]
+Lotus Petal,0.0,"{T}, Sacrifice Lotus Petal: Add one mana of any color.",{0},47,False,[],mainboard,None,None,[],['Artifact'],[]
+Brain Freeze,2.0,"Target player mills three cards.
+Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",{1}{U},48,False,['U'],mainboard,None,None,[],['Instant'],[]
+Rain of Filth,1.0,"Until end of turn, lands you control gain ""Sacrifice this land: Add {B}.""",{B},49,False,['B'],mainboard,None,None,[],['Instant'],[]
+Brainstorm,1.0,"Draw three cards, then put two cards from your hand on top of your library in any order.",{U},50,False,['U'],mainboard,None,None,[],['Instant'],[]
+Preordain,1.0,"Scry 2, then draw a card. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",{U},51,False,['U'],mainboard,None,None,[],['Sorcery'],[]
+Gitaxian Probe,1.0,"({U/P} can be paid with either {U} or 2 life.)
+Look at target player's hand.
+Draw a card.",{U/P},52,False,['U'],mainboard,None,None,[],['Sorcery'],[]
+Ponder,1.0,"Look at the top three cards of your library, then put them back in any order. You may shuffle.
+Draw a card.",{U},53,False,['U'],mainboard,None,None,[],['Sorcery'],[]
+Duress,1.0,"Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",{B},54,False,['B'],mainboard,None,None,[],['Sorcery'],[]
+Inquisition of Kozilek,1.0,Target player reveals their hand. You choose a nonland card from it with mana value 3 or less. That player discards that card.,{B},55,False,['B'],mainboard,None,None,[],['Sorcery'],[]
+Thoughtseize,1.0,Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life.,{B},56,False,['B'],mainboard,None,None,[],['Sorcery'],[]
+Fatal Push,1.0,"Destroy target creature if it has mana value 2 or less.
+Revolt — Destroy that creature if it has mana value 4 or less instead if a permanent you controlled left the battlefield this turn.",{B},57,False,['B'],mainboard,None,None,[],['Instant'],[]
+Lightning Bolt,1.0,Lightning Bolt deals 3 damage to any target.,{R},58,False,['R'],mainboard,None,None,[],['Instant'],[]
+Swords to Plowshares,1.0,Exile target creature. Its controller gains life equal to its power.,{W},59,False,['W'],mainboard,None,None,[],['Instant'],[]
+Demonic Tutor,2.0,"Search your library for a card, put that card into your hand, then shuffle.",{1}{B},60,False,['B'],mainboard,None,None,[],['Sorcery'],[]
+Balance,2.0,"Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way.",{1}{W},61,False,['W'],mainboard,None,None,[],['Sorcery'],[]
+Profane Tutor,0.0,"Suspend 2—{1}{B} (Rather than cast this card from your hand, pay {1}{B} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
+Search your library for a card, put that card into your hand, then shuffle.",,62,False,['B'],mainboard,None,None,[],['Sorcery'],[]
+Intuition,3.0,Search your library for three cards and reveal them. Target opponent chooses one. Put that card into your hand and the rest into your graveyard. Then shuffle.,{2}{U},63,False,['U'],mainboard,None,None,[],['Instant'],[]
+Sevinne's Reclamation,3.0,"Return target permanent card with mana value 3 or less from your graveyard to the battlefield. If this spell was cast from a graveyard, you may copy this spell and may choose a new target for the copy.
+Flashback {4}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",{2}{W},64,False,['W'],mainboard,None,None,[],['Sorcery'],[]
+Toxic Deluge,3.0,"As an additional cost to cast this spell, pay X life.
+All creatures get -X/-X until end of turn.",{2}{B},65,False,['B'],mainboard,None,None,[],['Sorcery'],[]
+Dark Ritual,1.0,Add {B}{B}{B}.,{B},66,False,['B'],mainboard,None,None,[],['Instant'],[]
+Wishclaw Talisman,2.0,"Wishclaw Talisman enters the battlefield with three wish counters on it.
+{1}, {T}, Remove a wish counter from Wishclaw Talisman: Search your library for a card, put it into your hand, then shuffle. An opponent gains control of Wishclaw Talisman. Activate only during your turn.",{1}{B},67,False,['B'],mainboard,None,None,[],['Artifact'],[]
+Urza's Saga,0.0,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Urza's Saga gains ""{T}: Add {C}.""
+II — Urza's Saga gains ""{2}, {T}: Create a 0/0 colorless Construct artifact creature token with 'This creature gets +1/+1 for each artifact you control.'""
+III — Search your library for an artifact card with mana cost {0} or {1}, put it onto the battlefield, then shuffle.",,68,False,[],mainboard,None,None,[],"['Enchantment', 'Land']","['Urza’s', 'Saga']"
+Chain of Vapor,1.0,"Return target nonland permanent to its owner's hand. Then that permanent's controller may sacrifice a land. If the player does, they may copy this spell and may choose a new target for that copy.",{U},69,False,['U'],mainboard,None,None,[],['Instant'],[]
+Tainted Pact,2.0,"Exile the top card of your library. You may put that card into your hand unless it has the same name as another card exiled this way. Repeat this process until you put a card into your hand or you exile two cards with the same name, whichever comes first.",{1}{B},70,False,['B'],mainboard,None,None,[],['Instant'],[]
+Shred Memory,2.0,"Exile up to four target cards from a single graveyard.
+Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",{1}{B},71,False,['B'],mainboard,None,None,[],['Instant'],[]
+Enlightened Tutor,1.0,"Search your library for an artifact or enchantment card, reveal it, then shuffle and put that card on top.",{W},72,False,['W'],mainboard,None,None,[],['Instant'],[]
+Deadly Rollick,4.0,"If you control a commander, you may cast this spell without paying its mana cost.
+Exile target creature.",{3}{B},73,False,['B'],mainboard,None,None,[],['Instant'],[]
+Prismatic Ending,1.0,Converge — Exile target nonland permanent if its mana value is less than or equal to the number of colors of mana spent to cast this spell.,{X}{W},74,False,['W'],mainboard,None,None,[],['Sorcery'],[]
+Remand,2.0,"Counter target spell. If that spell is countered this way, put it into its owner's hand instead of into that player's graveyard.
+Draw a card.",{1}{U},75,False,['U'],mainboard,None,None,[],['Instant'],[]
+Command Tower,0.0,{T}: Add one mana of any color in your commander's color identity.,,76,False,[],mainboard,None,None,[],['Land'],[]
+Reflecting Pool,0.0,{T}: Add one mana of any type that a land you control could produce.,,77,False,[],mainboard,None,None,[],['Land'],[]
+Lose Focus,2.0,"Replicate {U} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)
+Counter target spell unless its controller pays {2}.",{1}{U},78,False,['U'],mainboard,None,None,[],['Instant'],[]
+Rip Apart,2.0,"Choose one —
+• Rip Apart deals 3 damage to target creature or planeswalker.
+• Destroy target artifact or enchantment.",{R}{W},79,False,"['R', 'W']",mainboard,None,None,[],['Sorcery'],[]
+Muddle the Mixture,2.0,"Counter target instant or sorcery spell.
+Transmute {1}{U}{U} ({1}{U}{U}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",{U}{U},80,False,['U'],mainboard,None,None,[],['Instant'],[]
+Dimir Infiltrator,2.0,"Dimir Infiltrator can't be blocked.
+Transmute {1}{U}{B} ({1}{U}{B}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",{U}{B},81,False,"['B', 'U']",mainboard,1,3,[],['Creature'],['Spirit']
+Portable Hole,1.0,"When Portable Hole enters the battlefield, exile target nonland permanent an opponent controls with mana value 2 or less until Portable Hole leaves the battlefield.",{W},82,False,['W'],mainboard,None,None,[],['Artifact'],[]
+Painter's Servant,2.0,"As Painter's Servant enters the battlefield, choose a color.
+All cards that aren't on the battlefield, spells, and permanents are the chosen color in addition to their other colors.",{2},83,False,[],mainboard,1,3,[],"['Artifact', 'Creature']",['Scarecrow']
+Grindstone,1.0,"{3}, {T}: Target player mills two cards. If two cards that share a color were milled this way, repeat this process.",{1},84,False,[],mainboard,None,None,[],['Artifact'],[]
+Tithe,1.0,"Search your library for a Plains card. If target opponent controls more lands than you, you may search your library for an additional Plains card. Reveal those cards, put them into your hand, then shuffle.",{W},85,False,['W'],mainboard,None,None,[],['Instant'],[]
+Hard Evidence,1.0,"Create a 0/3 blue Crab creature token.
+Investigate. (Create a Clue token. It's an artifact with ""{2}, Sacrifice this artifact: Draw a card."")",{U},86,False,['U'],mainboard,None,None,[],['Sorcery'],[]
+Expressive Iteration,2.0,"Look at the top three cards of your library. Put one of them into your hand, put one of them on the bottom of your library, and exile one of them. You may play the exiled card this turn.",{U}{R},87,False,"['R', 'U']",mainboard,None,None,[],['Sorcery'],[]
+March of Otherworldly Light,1.0,"As an additional cost to cast this spell, you may exile any number of white cards from your hand. This spell costs {2} less to cast for each card exiled this way.
+Exile target artifact, creature, or enchantment with mana value X or less.",{X}{W},88,False,['W'],mainboard,None,None,[],['Instant'],[]
+Pact of Negation,0.0,"Counter target spell.
+At the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game.",{0},89,False,['U'],mainboard,None,None,[],['Instant'],[]
+Dress Down,2.0,"Flash
+When Dress Down enters the battlefield, draw a card.
+Creatures lose all abilities.
+At the beginning of the end step, sacrifice Dress Down.",{1}{U},90,False,['U'],mainboard,None,None,[],['Enchantment'],[]
+Memory Lapse,2.0,"Counter target spell. If that spell is countered this way, put it on top of its owner's library instead of into that player's graveyard.",{1}{U},91,False,['U'],mainboard,None,None,[],['Instant'],[]
+Baleful Strix,2.0,"Flying, deathtouch
+When Baleful Strix enters the battlefield, draw a card.",{U}{B},92,False,"['B', 'U']",mainboard,1,1,[],"['Artifact', 'Creature']",['Bird']
+Deadly Dispute,2.0,"As an additional cost to cast this spell, sacrifice an artifact or creature.
+Draw two cards and create a Treasure token. (It's an artifact with ""{T}, Sacrifice this artifact: Add one mana of any color."")",{1}{B},93,False,['B'],mainboard,None,None,[],['Instant'],[]
+Raugrin Triome,0.0,"({T}: Add {U}, {R}, or {W}.)
+Raugrin Triome enters the battlefield tapped.
+Cycling {3} ({3}, Discard this card: Draw a card.)",,94,False,"['R', 'U', 'W']",mainboard,None,None,[],['Land'],"['Island', 'Mountain', 'Plains']"
+Stormcarved Coast,0.0,"Stormcarved Coast enters the battlefield tapped unless you control two or more other lands.
+{T}: Add {U} or {R}.",,95,False,"['R', 'U']",mainboard,None,None,[],['Land'],[]
+Swamp,0.0,({T}: Add {B}.),,96,False,['B'],mainboard,None,None,['Basic'],['Land'],['Swamp']
+Solve the Equation,3.0,"Search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.",{2}{U},97,False,['U'],mainboard,None,None,[],['Sorcery'],[]
+Tale's End,2.0,"Counter target activated ability, triggered ability, or legendary spell.",{1}{U},98,False,['U'],mainboard,None,None,[],['Instant'],[]
+Godless Shrine,0.0,"({T}: Add {W} or {B}.)
+As Godless Shrine enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.",,99,False,"['B', 'W']",mainboard,None,None,[],['Land'],"['Plains', 'Swamp']"
+Void Rend,3.0,"This spell can't be countered.
+Destroy target nonland permanent.",{W}{U}{B},100,False,"['B', 'U', 'W']",mainboard,None,None,[],['Instant'],[]
+
