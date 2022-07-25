@@ -16,6 +16,7 @@ urborg_regex = r"Each land is a Swamp in addition"
 slow_fetch_regex = r"Search your library for a basic land card, put it onto the battlefield tapped"
 colorless_regex = r"{T}: Add {C}"
 pool_regex = r"{T}: Add one mana of any type"
+yavimaya_regex = r"Each land is a Forest in addition"
 
 #### FUNCTIONS ####
 
@@ -43,6 +44,8 @@ def determine_source(oracle_text, cmd_identity):
         color = cmd_identity
     elif re.findall(urborg_regex, oracle_text):
         color = ["B"]
+    elif re.findall(yavimaya_regex, oracle_text):
+        color = ["G"]
     elif re.findall(colorless_regex, oracle_text):
         color = ["C"]
     elif re.findall(pool_regex, oracle_text):
