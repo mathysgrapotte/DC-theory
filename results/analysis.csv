@@ -1,0 +1,62 @@
+card name,interest source,actual nb,recom nb,difference,castable
+"Wernog, Rider's Chaplain",B,30,21,9,True
+Deadly Dispute,B,30,21,9,True
+Baleful Strix,B,30,21,9,True
+Dimir Infiltrator,B,30,21,9,True
+Shred Memory,B,30,21,9,True
+Tainted Pact,B,30,21,9,True
+Wishclaw Talisman,B,30,21,9,True
+Demonic Tutor,B,30,21,9,True
+Void Rend,B,30,19,11,True
+Toxic Deluge,B,30,19,11,True
+Deadly Rollick,B,30,17,13,True
+Dark Ritual,B,30,21,9,True
+Fatal Push,B,30,21,9,True
+Thoughtseize,B,30,21,9,True
+Inquisition of Kozilek,B,30,21,9,True
+Duress,B,30,21,9,True
+Rain of Filth,B,30,21,9,True
+"Bjorna, Nightfall Alchemist",R,23,21,2,True
+Expressive Iteration,R,23,21,2,True
+Rip Apart,R,23,21,2,True
+Underworld Breach,R,23,21,2,True
+Goblin Engineer,R,23,21,2,True
+Lightning Bolt,R,23,21,2,True
+"Bjorna, Nightfall Alchemist",U,28,21,7,True
+Tale's End,U,28,21,7,True
+Baleful Strix,U,28,21,7,True
+Memory Lapse,U,28,21,7,True
+Dress Down,U,28,21,7,True
+Expressive Iteration,U,28,21,7,True
+Dimir Infiltrator,U,28,21,7,True
+Remand,U,28,21,7,True
+Brain Freeze,U,28,21,7,True
+Evasive Action,U,28,21,7,True
+Mana Leak,U,28,21,7,True
+Lose Focus,U,28,21,7,True
+Void Rend,U,28,19,9,True
+Solve the Equation,U,28,19,9,True
+Intuition,U,28,19,9,True
+Hard Evidence,U,28,21,7,True
+Chain of Vapor,U,28,21,7,True
+Ponder,U,28,21,7,True
+Preordain,U,28,21,7,True
+Brainstorm,U,28,21,7,True
+Muddle the Mixture,U,28,32,-4,False
+Supreme Verdict,U,28,17,11,True
+"Wernog, Rider's Chaplain",W,26,21,5,True
+March of Otherworldly Light,W,26,21,5,True
+Rip Apart,W,26,21,5,True
+Prismatic Ending,W,26,21,5,True
+Balance,W,26,21,5,True
+Wall of Omens,W,26,21,5,True
+Abeyance,W,26,21,5,True
+Void Rend,W,26,19,7,True
+Sevinne's Reclamation,W,26,19,7,True
+Tithe,W,26,21,5,True
+Portable Hole,W,26,21,5,True
+Enlightened Tutor,W,26,21,5,True
+Swords to Plowshares,W,26,21,5,True
+Orim's Chant,W,26,21,5,True
+Supreme Verdict,W,26,26,0,True
+

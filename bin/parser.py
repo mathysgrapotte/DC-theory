@@ -148,7 +148,7 @@ def make_dataset(deck:dict):
     return pd.DataFrame(decklist_)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="DC decklist analysis tool from a moxfield link")
+    parser = argparse.ArgumentParser(description="DC decklist parser tool from a moxfield link")
     parser.add_argument("--mox", help="moxfield URL to your decklist", type=str, required=True)
     args = parser.parse_args()
 
