@@ -43,7 +43,7 @@ process compute_castability {
 
   script:
   """
-  castability.sh $sources > castability.json
+  java -jar ${projectDir}/bin/castability.jar --iterations 250000 --max-mana-value 7 $sources > castability.json
   """
 
 }
