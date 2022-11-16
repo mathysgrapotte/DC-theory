@@ -3,8 +3,6 @@
 from manabase_karsten_analysis import *
 import json
 import argparse
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="count number of lands")
     parser.add_argument("--deck", help="deck taken from parser", type=str, required=True)
