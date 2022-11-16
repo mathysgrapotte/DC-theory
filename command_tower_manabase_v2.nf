@@ -33,12 +33,28 @@ process find_sources {
 
 }
 
+process compute_castability {
+
+  input:
+    path(sources)
+
+  output:
+    path("castability.json")
+
+  script:
+  """
+  castability.sh $sources > castability.json
+  """
+
+}
+
 
 
 workflow{
   Channel.of(params.url) \
    | parse_url \
    | find_sources \
+   | compute_castability \
    | collectFile(name: params.outfile, storeDir: params.outdir)
 
 }
