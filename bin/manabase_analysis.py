@@ -70,6 +70,7 @@ class meta_deck:
 
 def rapport(list_casting_cost, table):
     mana_source = []
+    color_specificity = []
     card_name = []
     n_land_success = []
     on_curve = []
@@ -82,12 +83,13 @@ def rapport(list_casting_cost, table):
                     on_curve_temp = table[i][key]['onCurveRatio']*100
 
                     for n in list_casting_cost[i][key]:
+                        color_specificity.append(key)
                         mana_source.append(i)
                         card_name.append(n)
                         n_land_success.append(n_land_success_temp)
                         on_curve.append(on_curve_temp)
 
-    return pd.DataFrame({"mana_source":mana_source, "card_name":card_name, "n_land_success":n_land_success, "on_curve":on_curve})
+    return pd.DataFrame({"mana_source":mana_source, "color_specificity":color_specificity, "card_name":card_name, "n_land_success":n_land_success, "on_curve":on_curve})
 
 def find_identity(deck):
     commanders = deck[deck["board"]=="commander"]
