@@ -24,11 +24,12 @@ process find_sources {
     path(deck)
 
   output:
-    path("sources.json")
+    tuple path("sources.json"), path("deck_s.csv")
 
   script:
   """
   land_counter_from_parser.py --deck $deck > sources.json
+  mv $deck deck_s.csv
   """
 
 }
@@ -36,18 +37,34 @@ process find_sources {
 process compute_castability {
 
   input:
-    path(sources)
+    tuple path(sources), path(deck)
 
   output:
-    path("castability.json")
+    tuple path("castability.json"), path("deck_c.csv")
 
   script:
   """
   java -jar ${projectDir}/bin/castability.jar --iterations 250000 --max-mana-value 7 $sources > castability.json
+  mv $deck deck_c.csv
   """
 
 }
 
+process manabase_analysis {
+
+  input:
+    tuple path(castability), path(deck)
+
+  output:
+    path("analysis.csv")
+
+  script:
+  """
+  manabase_analysis.py --dec $deck --karsten $castability > analysis.csv
+  """
+
+
+}
 
 
 workflow{
@@ -55,6 +72,7 @@ workflow{
    | parse_url \
    | find_sources \
    | compute_castability \
+   | manabase_analysis \
    | collectFile(name: params.outfile, storeDir: params.outdir)
 
 }
